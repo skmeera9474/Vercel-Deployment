@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "index.js", // Change this to your entry point
+        "src": "index.js", 
         "use": "@vercel/node"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "/" // Change this to your entry point
+        "dest": "/" 
       }
     ]
   }
